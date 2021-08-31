@@ -1,0 +1,16 @@
+body {
+  background-color: #343a40;
+}
+.circle {
+  background-color: #51b56d;
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: -4px 7px 32px 3px rgba(0, 0, 0, 0.44);
+  transition: all 0.2s ease-in-out;
+}
+.circle:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
